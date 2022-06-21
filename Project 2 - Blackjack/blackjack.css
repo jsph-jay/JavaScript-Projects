@@ -1,0 +1,38 @@
+body{
+font-family: 'Dosis', sans-serif;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-image: url(dusan-jovic-NHMUvu58Iz8-unsplash.jpg);
+background-size: cover;
+color: aliceblue;
+font-size: large;
+}
+
+h1{
+    font-weight: 400;
+    color: #eeba0b;
+}
+
+#message-el {
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+button{
+    font-family: 'Dosis', sans-serif;
+    width: auto;
+    font-size: 1em;
+    padding: 0.5em 0.5em;
+    margin: 0.25em 0.25em;
+    border: none;
+    background-color: #a63c06;
+    transition: all 0.25ms;
+    border-radius: 10%;  
+}
+
+button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #ff7b00;
+}
